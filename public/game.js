@@ -11,11 +11,12 @@ grinch.animate(0, 5);
 
 addObstacle();
 function addObstacle(){
-    placeObstacle('./img/obstacles/A.png', 1000 + Math.random() * 1000, 650, 70, 70);
+    placeObstacle('./img/obstacles/A.png', 2000 + Math.random() * 1000, 650, 70, 70);
 
-    setInterval(function() {
+    const interval = setInterval(function() {
         addObstacle();
     }, 5000);
+    GAMELOOPJS_INTERVALS.push(interval);
 }
 
 santa.isColliding(function() {

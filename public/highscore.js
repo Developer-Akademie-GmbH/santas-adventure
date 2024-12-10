@@ -1,4 +1,4 @@
-const SERVER_ROOT = 'http://localhost:3000';
+const SERVER_ROOT = '';
 let highscore = [];
 
 function sendScore(username, score) {
