@@ -1,0 +1,19 @@
+{
+  "name": "christmas-game-backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "express": "^4.21.2",
+    "express-rate-limit": "^7.4.1",
+    "sqlite3": "^5.1.7"
+  }
+}
