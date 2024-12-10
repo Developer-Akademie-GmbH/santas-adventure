@@ -7,7 +7,7 @@ const path = require('path');
 
 const limiter = rateLimit({
     windowMs: 15 * 60 * 1000, // 15 Minuten Fenster
-    max: 100, // Limit auf 100 Requests pro IP innerhalb 15 Minuten
+    max: 200, // Limit auf 100 Requests pro IP innerhalb 15 Minuten
 });
 
 const app = express();
